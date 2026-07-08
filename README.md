@@ -146,13 +146,6 @@ http://127.0.0.1:8000
 - `yosys/tests/my_opt_multilevel/`
 - `yosys/tests/my_opt_timing/`
 
-这次 README 整理过程中，已经在本地重新验证过以下命令：
-
-- `.\build.ps1`
-- `.\bin\verilog_rtlil_compiler.exe .\examples\demo.v -o .\examples\demo.il`
-- 在 `examples/` 目录下执行 `..\MyVSYosys.exe -s .\run_my_opt_logic_demo.ys`
-- `python .\web\server.py` 与 `GET /api/health`
-
 ## 说明
 
 - 根目录下的 `yosys/` 是当前项目实际维护和继续开发的 Yosys 源码树。
@@ -166,6 +159,3 @@ http://127.0.0.1:8000
 - 引入 benchmark，并统计优化前后 QoR 指标
 - 增强 Web 界面的逐步优化展示与结果对比能力
 
-## 许可证
-
-当前仓库还没有附带 `LICENSE` 文件。如果要按正式开源项目方式发布，建议补充许可证后再公开。
