@@ -1,0 +1,9 @@
+read_verilog my_opt_algebra_demo.v
+proc
+opt_clean
+stat
+my_opt_rewrite
+my_opt_dce
+opt_clean
+stat
+write_rtlil my_opt_algebra_demo.il

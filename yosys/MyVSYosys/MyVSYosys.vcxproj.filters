@@ -1,0 +1,1235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Դ�ļ�">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ͷ�ļ�">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="��Դ�ļ�">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\\backends\aiger\aiger.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\backends\aiger\xaiger.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\backends\blif\blif.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\backends\btor\btor.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\backends\cxxrtl\cxxrtl_backend.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\backends\edif\edif.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\backends\firrtl\firrtl.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\backends\intersynth\intersynth.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\backends\jny\jny.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\backends\json\json.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\backends\rtlil\rtlil_backend.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\backends\simplec\simplec.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\backends\smt2\smt2.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\backends\smv\smv.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\backends\spice\spice.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\backends\table\table.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\backends\verilog\verilog_backend.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\frontends\aiger\aigerparse.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\frontends\ast\ast.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\frontends\ast\ast_binding.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\frontends\ast\dpicall.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\frontends\ast\genrtlil.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\frontends\ast\simplify.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\frontends\blif\blifparse.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\frontends\json\jsonparse.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\frontends\liberty\liberty.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\frontends\rpc\rpc_frontend.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\frontends\rtlil\rtlil_frontend.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\frontends\rtlil\rtlil_lexer.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\frontends\rtlil\rtlil_parser.tab.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\frontends\verific\verific.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\frontends\verilog\const2ast.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\frontends\verilog\preproc.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\frontends\verilog\verilog_frontend.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\frontends\verilog\verilog_lexer.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\frontends\verilog\verilog_parser.tab.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\kernel\binding.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\kernel\calc.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\kernel\cellaigs.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\kernel\celledges.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\kernel\driver.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\kernel\ff.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\kernel\ffmerge.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\kernel\fmt.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\kernel\fstdata.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\kernel\json.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\kernel\log.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\kernel\mem.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\kernel\qcsat.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\kernel\register.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\kernel\rtlil.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\kernel\satgen.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\kernel\scopeinfo.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\kernel\version.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\kernel\yosys.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\kernel\yw.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\bigint\BigInteger.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\bigint\BigIntegerAlgorithms.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\bigint\BigIntegerUtils.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\bigint\BigUnsigned.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\bigint\BigUnsignedInABase.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\ezsat\ezminisat.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\ezsat\ezsat.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\fst\fastlz.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\fst\fstapi.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\fst\lz4.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\json11\json11.cpp">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\minisat\Options.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\minisat\SimpSolver.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\minisat\Solver.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\minisat\System.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\sha1\sha1.cpp">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\subcircuit\subcircuit.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\zlib\adler32.c">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\zlib\compress.c">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\zlib\crc32.c">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\zlib\deflate.c">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\zlib\gzclose.c">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\zlib\gzlib.c">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\zlib\gzread.c">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\zlib\gzwrite.c">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\zlib\infback.c">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\zlib\inffast.c">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\zlib\inflate.c">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\zlib\inftrees.c">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\zlib\trees.c">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\zlib\uncompr.c">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\libs\zlib\zutil.c">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\add.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\autoname.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\blackbox.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\bugpoint.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\check.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\chformal.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\chtype.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\clean_zerowidth.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\connect.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\connwrappers.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\copy.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\cover.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\delete.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\design.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\dft_tag.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\edgetypes.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\exec.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\future.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\glift.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\logcmd.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\logger.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\ltp.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\plugin.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\portlist.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\printattrs.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\qwp.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\rename.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\scatter.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\scc.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\scratchpad.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\select.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\setattr.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\setundef.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\show.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\splice.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\splitcells.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\splitnets.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\sta.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\stat.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\tee.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\torder.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\trace.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\viz.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\write_file.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\cmds\xprop.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\equiv\equiv_add.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\equiv\equiv_induct.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\equiv\equiv_make.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\equiv\equiv_mark.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\equiv\equiv_miter.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\equiv\equiv_opt.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\equiv\equiv_purge.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\equiv\equiv_remove.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\equiv\equiv_simple.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\equiv\equiv_status.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\equiv\equiv_struct.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\fsm\fsm.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\fsm\fsm_detect.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\fsm\fsm_expand.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\fsm\fsm_export.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\fsm\fsm_extract.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\fsm\fsm_info.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\fsm\fsm_map.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\fsm\fsm_opt.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\fsm\fsm_recode.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\hierarchy\hierarchy.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\hierarchy\submod.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\hierarchy\uniquify.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\memory\memlib.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\memory\memory.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\memory\memory_bmux2rom.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\memory\memory_bram.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\memory\memory_collect.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\memory\memory_dff.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\memory\memory_libmap.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\memory\memory_map.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\memory\memory_memx.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\memory\memory_narrow.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\memory\memory_nordff.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\memory\memory_share.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\memory\memory_unpack.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\muxpack.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\my_opt_cse.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\my_opt_dce.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\my_opt_expr.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\my_opt_muxtree.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\my_opt_qm.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\my_opt_reduce.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\my_opt_rewrite.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\my_opt_share.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\my_opt_strength.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\my_opt_timing.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\opt.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\opt_clean.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\opt_demorgan.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\opt_dff.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\opt_expr.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\opt_ffinv.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\opt_lut.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\opt_lut_ins.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\opt_mem.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\opt_mem_feedback.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\opt_mem_priority.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\opt_mem_widen.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\opt_merge.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\opt_muxtree.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\opt_reduce.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\opt_share.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\pmux2shiftx.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\rmports.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\share.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\opt\wreduce.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\pmgen\ice40_dsp.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\pmgen\ice40_wrapcarry.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\pmgen\peepopt.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\pmgen\test_pmgen.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\pmgen\xilinx_dsp.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\pmgen\xilinx_srl.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\proc\proc.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\proc\proc_arst.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\proc\proc_clean.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\proc\proc_dff.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\proc\proc_dlatch.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\proc\proc_init.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\proc\proc_memwr.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\proc\proc_mux.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\proc\proc_prune.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\proc\proc_rmdead.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\proc\proc_rom.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\sat\assertpmux.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\sat\async2sync.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\sat\clk2fflogic.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\sat\cutpoint.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\sat\eval.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\sat\expose.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\sat\fmcombine.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\sat\fminit.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\sat\formalff.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\sat\freduce.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\sat\miter.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\sat\mutate.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\sat\qbfsat.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\sat\recover_names.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\sat\sat.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\sat\sim.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\sat\supercover.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\sat\synthprop.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\abc.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\abc9.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\abc9_exe.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\abc9_ops.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\aigmap.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\alumacc.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\attrmap.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\attrmvcp.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\bmuxmap.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\booth.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\bwmuxmap.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\clkbufmap.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\deminout.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\demuxmap.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\dffinit.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\dfflegalize.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\dfflibmap.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\dffunmap.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\extract.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\extractinv.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\extract_counter.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\extract_fa.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\extract_reduce.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\flatten.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\flowmap.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\hilomap.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\insbuf.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\iopadmap.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\libparse.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\lut2mux.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\maccmap.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\muxcover.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\nlutmap.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\pmuxtree.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\shregmap.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\simplemap.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\techmap.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\tribuf.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\techmap\zinit.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\tests\test_abcloop.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\tests\test_autotb.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\passes\tests\test_cell.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\achronix\synth_achronix.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\anlogic\anlogic_eqn.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\anlogic\anlogic_fixcarry.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\anlogic\synth_anlogic.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\common\prep.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\common\synth.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\coolrunner2\coolrunner2_fixup.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\coolrunner2\coolrunner2_sop.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\coolrunner2\synth_coolrunner2.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\easic\synth_easic.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\ecp5\synth_ecp5.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\efinix\efinix_fixcarry.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\efinix\synth_efinix.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\fabulous\synth_fabulous.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\gatemate\gatemate_foldinv.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\gatemate\synth_gatemate.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\gowin\synth_gowin.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\greenpak4\greenpak4_dffinv.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\greenpak4\synth_greenpak4.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\ice40\ice40_braminit.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\ice40\ice40_opt.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\ice40\synth_ice40.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\intel\synth_intel.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\intel_alm\synth_intel_alm.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\lattice\lattice_gsr.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\lattice\synth_lattice.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\nexus\synth_nexus.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\quicklogic\ql_bram_merge.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\quicklogic\ql_bram_types.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\quicklogic\ql_dsp_io_regs.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\quicklogic\ql_dsp_macc.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\quicklogic\ql_dsp_simd.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\quicklogic\synth_quicklogic.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\sf2\synth_sf2.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\xilinx\synth_xilinx.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+    <ClCompile Include="..\\techlibs\xilinx\xilinx_dffopt.cc">
+      <Filter>Դ�ļ�</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\\backends\rtlil\rtlil_backend.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\frontends\aiger\aigerparse.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\frontends\ast\ast.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\frontends\ast\ast_binding.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\frontends\blif\blifparse.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\frontends\rtlil\rtlil_frontend.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\frontends\rtlil\rtlil_parser.tab.hh">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\frontends\verific\verific.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\frontends\verilog\preproc.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\frontends\verilog\verilog_frontend.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\frontends\verilog\verilog_parser.tab.hh">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\binding.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\bitpattern.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\cellaigs.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\celledges.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\celltypes.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\consteval.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\cost.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\ff.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\ffinit.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\ffmerge.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\fmt.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\fstdata.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\hashlib.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\json.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\log.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\macc.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\mem.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\modtools.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\qcsat.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\register.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\rtlil.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\satgen.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\scopeinfo.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\sigtools.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\timinginfo.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\utils.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\yosys.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\kernel\yw.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\bigint\BigInteger.hh">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\bigint\BigIntegerAlgorithms.hh">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\bigint\BigIntegerLibrary.hh">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\bigint\BigIntegerUtils.hh">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\bigint\BigUnsigned.hh">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\bigint\BigUnsignedInABase.hh">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\bigint\NumberlikeArray.hh">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\ezsat\ezminisat.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\ezsat\ezsat.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\fst\config.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\fst\fastlz.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\fst\lz4.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\json11\json11.hpp">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\minisat\Alg.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\minisat\Alloc.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\minisat\Heap.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\minisat\IntMap.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\minisat\IntTypes.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\minisat\Map.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\minisat\Options.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\minisat\ParseUtils.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\minisat\Queue.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\minisat\SimpSolver.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\minisat\Solver.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\minisat\SolverTypes.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\minisat\Sort.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\minisat\System.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\minisat\Vec.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\minisat\XAlloc.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\sha1\sha1.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\subcircuit\subcircuit.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\zlib\contrib\blast\blast.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\passes\fsm\fsmdata.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\passes\memory\memlib.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\passes\pmgen\generate.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\passes\pmgen\ice40_dsp_pm.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\passes\pmgen\ice40_wrapcarry_pm.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\passes\pmgen\peepopt_pm.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\passes\pmgen\test_pmgen_pm.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\passes\pmgen\xilinx_dsp48a_pm.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\passes\pmgen\xilinx_dsp_cascade_pm.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\passes\pmgen\xilinx_dsp_CREG_pm.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\passes\pmgen\xilinx_dsp_pm.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\passes\pmgen\xilinx_srl_pm.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\passes\sat\qbfsat.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\passes\techmap\libparse.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\passes\techmap\simplemap.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\techlibs\quicklogic\ql_dsp_macc_pm.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+    <ClInclude Include="..\\libs\fst\fstapi.h">
+      <Filter>ͷ�ļ�</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\\kernel\constids.inc">
+      <Filter>ͷ�ļ�</Filter>
+    </None>
+    <None Include="..\\techlibs\common\simcells_help.inc">
+      <Filter>ͷ�ļ�</Filter>
+    </None>
+    <None Include="..\\techlibs\common\simlib_help.inc">
+      <Filter>ͷ�ļ�</Filter>
+    </None>
+  </ItemGroup>
+</Project>

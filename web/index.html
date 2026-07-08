@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EDA 综合优化工作台</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <section class="topbar">
+      <div>
+        <p class="eyebrow">Verilog / RTLIL / Yosys</p>
+        <h1>EDA 综合优化工作台</h1>
+      </div>
+      <div class="status-grid">
+        <div class="status-item"><span>编译器</span><strong id="compilerStatus">-</strong></div>
+        <div class="status-item"><span>Yosys</span><strong id="yosysStatus">-</strong></div>
+        <div class="status-item"><span>Graphviz</span><strong id="graphvizStatus">-</strong></div>
+      </div>
+    </section>
+
+    <section class="workspace">
+      <aside class="sidebar">
+        <label class="field-label" for="profileSelect">优化流程</label>
+        <select id="profileSelect"></select>
+
+        <div class="pass-panel algorithm-panel">
+          <div class="panel-title">选择算法</div>
+          <div id="passList" class="algorithm-list"></div>
+        </div>
+
+        <button id="runBtn" class="run-button" type="button">
+          <span class="play-dot"></span>
+          运行演示
+        </button>
+
+      </aside>
+
+      <section class="editor-pane">
+        <div class="pane-header">
+          <span>Verilog 源码</span>
+          <span id="messageBox" class="message">正在检查运行环境...</span>
+        </div>
+        <textarea id="sourceInput" spellcheck="false"></textarea>
+      </section>
+
+      <section class="result-pane">
+        <div class="metric-row">
+          <div class="metric"><span>Cell 数量</span><strong id="cellMetric">-</strong></div>
+          <div class="metric"><span>优化收益</span><strong id="gainMetric">-</strong></div>
+          <div class="metric"><span>流程状态</span><strong id="flowMetric">-</strong></div>
+        </div>
+
+        <nav class="tabs" aria-label="结果视图">
+          <button class="tab active" data-view="summary" type="button">摘要</button>
+          <button class="tab" data-view="rtlil" type="button">RTLIL</button>
+          <button class="tab" data-view="script" type="button">脚本</button>
+          <button class="tab" data-view="log" type="button">日志</button>
+          <button class="tab" data-view="timing" type="button">时序</button>
+          <button class="tab" data-view="graph" type="button">网表图</button>
+        </nav>
+
+        <div id="textOutput" class="text-output"></div>
+        <div id="graphOutput" class="graph-output hidden"></div>
+      </section>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

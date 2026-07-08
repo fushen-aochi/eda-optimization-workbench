@@ -1,0 +1,14 @@
+read_verilog ml_kernel_example.v
+proc
+opt_expr
+opt_clean
+copy ml_kernel_example gold
+copy ml_kernel_example gate
+select -module gate
+my_opt_kernel -max_kernel_literals 8 -max_iter 16
+opt_clean
+select *
+equiv_make gold gate equiv
+prep -top equiv
+equiv_simple
+equiv_status -assert

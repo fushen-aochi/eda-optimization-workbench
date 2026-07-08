@@ -1,0 +1,7 @@
+read_verilog my_opt_timing_demo.v
+proc
+opt_expr
+opt_clean
+stat
+my_opt_timing -clock 8 -topn 8 -critical_slack 1
+my_opt_timing -clock 6 -delay $add 3 -delay $mux 2 -show_all

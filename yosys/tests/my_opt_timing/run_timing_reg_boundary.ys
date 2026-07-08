@@ -1,0 +1,5 @@
+read_verilog timing_reg_boundary.v
+proc
+opt_expr
+opt_clean
+my_opt_timing -clock 5

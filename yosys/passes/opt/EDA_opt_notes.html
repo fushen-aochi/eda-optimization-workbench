@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EDA_opt 浼樺寲璇存槑</title>
+  <style>
+    body {
+      font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      line-height: 1.6;
+      margin: 24px;
+      color: #222;
+    }
+
+    h1 {
+      font-size: 22px;
+      margin: 0 0 12px;
+    }
+
+    h2 {
+      font-size: 18px;
+      margin: 18px 0 8px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    code {
+      background: #f3f3f3;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>EDA_opt 浼樺寲璇存槑</h1>
+  <p>鏈枃妗ｆ€荤粨浜嗗綋鍓嶅伐浣滃尯涓嚜瀹氫箟鐨?EDA_opt 浼樺寲 pass 鍙婂叾鏍稿績鏂规硶銆傚畠浠槸鏈夋剰淇濇寔绠€鍖栥€佷繚瀹堢殑瀹炵幇銆?/p>
+
+  <h2>my_opt_expr</h2>
+  <ul>
+    <li>鐩爣锛氬父閲忎紶鎾笌绠€鍗曢€昏緫鎶樺彔銆?/li>
+    <li>鑼冨洿锛?code>$not</code>銆?code>$mux</code>銆?code>$and</code>銆?code>$or</code>銆?code>$xor</code>銆?/li>
+    <li>鏂规硶锛氬綋杈撳叆涓哄叏甯搁噺鏃讹紝鐩存帴鎶樺彔杈撳嚭锛?code>$mux</code> 閫夐€氫俊鍙蜂负甯搁噺鏃剁洿鎺ラ€夋嫨杈撳叆銆?/li>
+    <li>闄愬埗锛氫笉鍋氬鏉傚竷灏斿寲绠€鎴栫畻鏈姌鍙犮€?/li>
+  </ul>
+
+  <h2>my_opt_muxtree</h2>
+  <ul>
+    <li>鐩爣锛氱畝鍗曠殑 mux 鏍戞竻鐞嗐€?/li>
+    <li>鑼冨洿锛?code>$mux</code>銆?code>$pmux</code>銆?/li>
+    <li>鏂规硶锛氶€夋嫨淇″彿涓哄父閲忔椂锛屽皢杈撳嚭鏇挎崲涓哄搴旇緭鍏ユ垨鍒囩墖銆?/li>
+    <li>闄愬埗锛氫笉閲嶆帓/骞宠　 mux 鏍戯紝浠呭仛甯搁噺鎶樺彔銆?/li>
+  </ul>
+
+  <h2>my_opt_reduce</h2>
+  <ul>
+    <li>鐩爣锛歳educe 鍗曞厓甯搁噺鎶樺彔銆?/li>
+    <li>
+      鑼冨洿锛?code>$reduce_and</code>銆?code>$reduce_or</code>銆?code>$reduce_xor</code>銆?code>$reduce_xnor</code>銆?code>$reduce_bool</code>銆?
+    </li>
+    <li>鏂规硶锛氳緭鍏?A 鍏ㄥ父閲忔椂璁＄畻缁撴灉骞舵浛鎹㈣緭鍑恒€?/li>
+    <li>闄愬埗锛氫笉澶勭悊閮ㄥ垎甯搁噺鎴栨洿澶嶆潅鐨勫綊绾︿紭鍖栥€?/li>
+  </ul>
+
+  <h2>my_opt_share</h2>
+  <ul>
+    <li>鐩爣锛氬熀浜?mux 妯″紡鐨勭畝鍗曡祫婧愬叡浜€?/li>
+    <li>鑼冨洿锛氫粎璇嗗埆涓€涓?<code>$mux</code>锛屽叾 A/B 鐢变袱涓浉鍚屼簩鍏冭繍绠楅┍鍔ㄣ€?/li>
+    <li>鏀寔绠楀瓙锛?code>$add</code>銆?code>$sub</code>銆?code>$and</code>銆?code>$or</code>銆?code>$xor</code>銆?code>$mul</code>銆?
+    </li>
+    <li>鏂规硶锛氬綋涓や釜杩愮畻鐨勫弬鏁颁竴鑷翠笖杈撳嚭浠呰璇?mux 浣跨敤鏃讹紝灏嗗叾鍚堝苟涓轰竴涓叡浜繍绠楋紝杈撳叆鐢ㄥ悓涓€閫夋嫨淇″彿澶嶇敤銆?/li>
+    <li>闄愬埗锛氫笉鍋?SAT 绾у埆鍏变韩锛屼笉鍋氬璺叡浜紝涓嶈鐩栨湁鐘舵€佸崟鍏冦€?/li>
+  </ul>
+
+  <h2>opt 璋冨害涓殑浣跨敤</h2>
+  <ul>
+    <li>my_opt_expr</li>
+    <li>my_opt_muxtree</li>
+    <li>my_opt_reduce</li>
+    <li>my_opt_share锛堜粎鍦?opt 浣跨敤 <code>-full</code> 鏃惰繍琛岋級</li>
+  </ul>
+  <p>鍚?pass 鍦ㄥ彂鐢熶紭鍖栨椂浼氳缃?<code>opt.did_something</code>锛岀敤浜庨┍鍔?opt 鐨勮凯浠ｆ敹鏁涖€?/p>
+</body>
+
+</html>

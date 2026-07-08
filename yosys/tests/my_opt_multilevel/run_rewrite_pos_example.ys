@@ -1,0 +1,14 @@
+read_verilog ml_pos_example.v
+proc
+opt_expr
+opt_clean
+copy ml_pos_example gold
+copy ml_pos_example gate
+select -module gate
+my_opt_rewrite -max_kernel_literals 8 -max_iter 16
+opt_clean
+select *
+equiv_make gold gate equiv
+prep -top equiv
+equiv_simple
+equiv_status -assert

@@ -1,0 +1,5 @@
+read_verilog F:/EDA/EDA/web/node_label_test/t.v
+hierarchy -check -auto-top
+proc
+opt_clean
+my_opt_timing -clock 8 -show_all

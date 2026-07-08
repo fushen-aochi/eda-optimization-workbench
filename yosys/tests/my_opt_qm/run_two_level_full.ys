@@ -1,0 +1,15 @@
+read_verilog cover_expand_irredundant.v
+proc
+opt_expr
+opt_clean
+copy cover_expand_irredundant gold
+copy cover_expand_irredundant gate
+select -module gate
+my_opt_cover -max_vars 6 -max_iter 16
+my_opt_qm -max_vars 6
+opt_clean
+select *
+equiv_make gold gate equiv
+prep -top equiv
+equiv_simple
+equiv_status -assert

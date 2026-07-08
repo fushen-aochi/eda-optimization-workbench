@@ -1,0 +1,14 @@
+read_verilog qm_mux_arith.v
+proc
+opt_expr
+opt_clean
+copy qm_mux_arith gold
+copy qm_mux_arith gate
+select -module gate
+my_opt_qm -max_vars 8
+opt_clean
+select *
+equiv_make gold gate equiv
+prep -top equiv
+equiv_simple
+equiv_status -assert

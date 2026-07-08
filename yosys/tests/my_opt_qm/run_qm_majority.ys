@@ -1,0 +1,14 @@
+read_verilog qm_majority.v
+proc
+opt_expr
+opt_clean
+copy qm_majority gold
+copy qm_majority gate
+select -module gate
+my_opt_qm -max_vars 6
+opt_clean
+select *
+equiv_make gold gate equiv
+prep -top equiv
+equiv_simple
+equiv_status -assert

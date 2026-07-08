@@ -1,0 +1,18 @@
+read_verilog my_opt_logic_demo.v
+prep -top top
+copy top gold
+copy top gate
+
+select gate
+my_opt_expr
+my_opt_cover
+my_opt_qm -max_vars 8
+my_opt_kernel
+my_opt_dce
+opt_clean
+select *
+
+equiv_make gold gate equiv
+prep -top equiv
+equiv_simple
+equiv_status -assert

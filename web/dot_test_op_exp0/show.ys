@@ -1,0 +1,4 @@
+read_rtlil F:/EDA/EDA/web/dot_test_op_exp0/op_exp0_bracket.il
+hierarchy -check -auto-top
+select *
+show -format dot -prefix F:/EDA/EDA/web/dot_test_op_exp0/op_exp0_bracket

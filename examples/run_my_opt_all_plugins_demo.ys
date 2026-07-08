@@ -1,0 +1,55 @@
+read_rtlil my_opt_all_plugins_from_compiler.il
+hierarchy -check -auto-top
+stat
+write_rtlil all_00_original.il
+
+my_opt_timing -clock 8 -topn 8 -critical_slack 1
+
+my_opt_expr
+stat
+write_rtlil all_01_expr.il
+
+my_opt_reduce
+stat
+write_rtlil all_02_reduce.il
+
+my_opt_muxtree
+stat
+write_rtlil all_03_muxtree.il
+
+my_opt_strength
+stat
+write_rtlil all_04_strength.il
+
+my_opt_share
+stat
+write_rtlil all_05_share.il
+
+my_opt_cse
+stat
+write_rtlil all_06_cse.il
+
+my_opt_cover -max_vars 12 -max_iter 16
+stat
+write_rtlil all_07_cover.il
+
+my_opt_qm -max_vars 8
+stat
+write_rtlil all_08_qm.il
+
+my_opt_kernel
+stat
+write_rtlil all_09_kernel.il
+
+my_opt_algdiv
+stat
+write_rtlil all_10_algdiv.il
+
+my_opt_rewrite
+stat
+write_rtlil all_11_rewrite.il
+
+my_opt_dce
+opt_clean
+stat
+write_rtlil all_12_final.il

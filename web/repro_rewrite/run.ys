@@ -1,0 +1,14 @@
+read_verilog F:/EDA/EDA/web/repro_rewrite/yosys_input.v
+hierarchy -check -auto-top
+proc
+opt_clean
+stat
+write_rtlil F:/EDA/EDA/web/repro_rewrite/before.il
+my_opt_rewrite
+my_opt_algdiv
+my_opt_kernel
+my_opt_dce
+opt_clean
+stat
+write_rtlil F:/EDA/EDA/web/repro_rewrite/after.il
+show -format dot -prefix F:/EDA/EDA/web/repro_rewrite/netlist
